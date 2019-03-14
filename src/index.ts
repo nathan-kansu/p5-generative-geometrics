@@ -7,6 +7,8 @@ import {
   FRAME_RATE
 } from "./constants";
 
+import "./style.css";
+
 import { GeometryInterface } from "./interfaces";
 
 const sketch = (p5: p5) => {
