@@ -3,6 +3,9 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
+const PUBLIC_PATH =
+  process.env.NODE_ENV === "production" ? "/p5-generative-geometrics" : "/";
+
 module.exports = {
   entry: "./src/index.ts",
   module: {
@@ -42,6 +45,7 @@ module.exports = {
   ],
   output: {
     filename: "bundle.js",
-    path: path.resolve(__dirname, "dist")
+    path: path.resolve(__dirname, "dist"),
+    publicPath: PUBLIC_PATH
   }
 };
