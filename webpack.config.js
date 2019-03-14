@@ -28,7 +28,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "P5.js Typescript boilerplate"
+      title: "P5 Generative Geometrics"
     })
   ],
   output: {
