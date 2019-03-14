@@ -1,8 +1,8 @@
 {
-  "name": "p5-typescript-boilerplate",
+  "name": "p5-generative-geometrics",
   "version": "1.0.0",
   "scripts": {
-    "description": "P5.js boilerplate with Typescript support and Webpack 4 enabled.",
+    "description": "P5.js generative, geometric, pattern animation.",
     "build": "webpack",
     "deploy": "gh-pages -d dist",
     "start": "webpack-dev-server",
